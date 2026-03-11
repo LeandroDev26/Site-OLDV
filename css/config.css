@@ -1,0 +1,305 @@
+/* --------------- MAIN --------------- */
+
+#back{
+
+    background-attachment: fixed;
+
+}
+
+.header{
+
+    padding: 15px;
+    background-color: whitesmoke;
+    height: 170px;
+    border-style: outset;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    border-color: blue;
+    margin: 10px 10px 5px;
+
+}
+
+header > h1{
+    
+    margin: 10px 10px;
+    color: rgb(6, 1, 11);
+    font-family: fantasy;
+    width: 100px;
+    padding: 1px;
+
+}
+
+
+header > button{
+
+    font-family: 'fantasy', 'Chalkduster' ;
+    padding: 18px 28px;
+    font-size: 14px;
+    border-style: outset;
+    background: gold;
+    color: black;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    margin: 125px 0px 0px 110px;
+    text-decoration: none;
+    float: inline-start;
+    margin-bottom: 20px;
+    
+    }
+
+
+button:hover{
+
+    
+    text-decoration: none;
+    cursor: pointer;
+	background-color: white;
+	transform: scale(0.8);
+
+}
+
+#bt{
+
+    font-family: 'fantasy', 'Chalkduster' ;
+    padding: 18px 28px;
+    font-size: 14px;
+    border-style: outset;
+    background: gold;
+    color: black;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    margin: 40px 0px 0px 160px;
+    text-decoration: none;
+    float: inline-start;
+   
+
+}
+
+
+#img{
+
+    margin: 0px auto;
+    float: inline-start;
+    border-style: outset;
+    border-radius: 10px;
+    border-color: blue;
+    object-position: auto;
+    padding: 0px;
+
+}
+
+#img2{
+
+  
+    float: inline-end;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    padding: 30px;
+
+}
+
+
+#div{
+
+text-align: center;
+background-color: white;
+padding:  15px;
+border-style: outset;
+border-radius: 10px;
+border-color: blue;
+
+}
+
+div > h2{
+
+    
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    
+}
+
+
+div > img{
+
+    padding: 10px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+    gap: 20px; /* espaço entre as colunas */
+    align-items: flex-start;
+    
+}
+
+.coluna-direita {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+}
+
+#noticia {
+    width: 400px;
+    height: 1176px;
+    background-color: white;
+    border-color: blue;
+    border-radius: 10px;
+    border-style: outset;
+    padding: 15px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+
+}
+
+#noticia > h1{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#noticia > img{
+    
+    border-style: double;
+    margin-bottom: 10px;
+
+}
+
+#principal{
+
+    width: 70%;
+    height: 50%;
+    background-color: #fff;
+    border-style: outset;
+    border-color: blue;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+
+    
+}
+
+#principal > h1{
+
+    text-align: center;  /* ALINHA TEXTO */
+    align-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+#principal > img{
+
+display: block;
+margin: 0 auto;
+
+}
+
+#principal > p{
+
+text-align: center;
+display: block;
+
+}
+
+#secundario{
+
+    width: 70%;
+    height: 60%;
+    background-color: #fff;
+    border-style: outset;
+    border-color: blue;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    
+}
+
+#secundario > h1{
+
+    text-align: center;  /* ALINHA TEXTO */
+    align-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+
+}
+
+#secundario > img{
+
+
+    padding: 15px;
+    display: block;
+    margin: 0 auto
+       
+}
+
+#imgdupla{
+
+    display: flex;
+    justify-content: center;  
+    align-items: center;     
+    margin-top: 10px;
+
+}
+
+footer{
+
+    margin-top: 10px;
+    padding: 10px;
+    border-style: outset;
+    border-radius: 15px;
+    border-color: blue;
+    background-color: white;
+
+}
+
+/* --------------- SOBRE --------------- */
+
+
+
+#maestro {
+
+    text-align: justify;
+    width: 400px;
+    height: 1343px;
+    background-color: white;
+    border-color: blue;
+    border-radius: 10px;
+    border-style: outset;
+    padding: 15px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+
+}
+
+#maestro > h1{
+
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#maestro > img{
+    
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+    border-style: outset;
+    border-color: gold;
+    border-radius: 100px;
+    
+
+}
+
+.modo-escuro {
+    background-color: black !important; /* Define o fundo preto */
+    color: white !important; /* Define o texto branco */
+}
+
+.modo-escuro header, .modo-escuro footer {
+    background-color: black !important; /* Define o fundo preto no header e footer */
+    color: white !important; /* Define o texto branco no header e footer */
+}
+
+/*---------------------MATRICULAS----------------------*/
+
